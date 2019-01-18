@@ -1,4 +1,4 @@
-package exercises.week09Stream.exercise01;
+package exercises.week9Stream.exercise01;
 
 
 import java.util.ArrayList;

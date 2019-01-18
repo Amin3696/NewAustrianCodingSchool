@@ -1,4 +1,4 @@
-package exercises.week09Stream.exercise05;
+package exercises.week9Stream.exercise05;
 
 public class FilmApplication {
 

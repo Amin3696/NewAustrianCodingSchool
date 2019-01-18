@@ -1,4 +1,4 @@
-package exercises.week09Stream.exercise02;
+package exercises.week9Stream.exercise02;
 
 import exercises.week4DateStructure.ex09File.FileReader;
 import org.junit.jupiter.api.Assertions;
@@ -10,7 +10,7 @@ import java.util.stream.Collectors;
 
 public class StreamsTest {
     private FileReader fileReader = new FileReader();
-    private List<String> names = fileReader.asList("exercises/week09Stream/source/names.txt");
+    private List<String> names = fileReader.asList("exercises/week9Stream/source/names.txt");
 
 
     @Test

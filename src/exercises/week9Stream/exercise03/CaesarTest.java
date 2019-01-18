@@ -1,11 +1,7 @@
-package exercises.week09Stream.exercise03;
+package exercises.week9Stream.exercise03;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
-import javax.crypto.Cipher;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class CaesarTest {
     private Caesar caesar = new Caesar();

@@ -1,4 +1,4 @@
-package exercises.week09Stream.reflectionWeek09;
+package exercises.week9Stream.reflectionWeek09;
 
 public class Student {
     private String gender;

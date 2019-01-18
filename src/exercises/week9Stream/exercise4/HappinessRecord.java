@@ -1,4 +1,4 @@
-package exercises.week09Stream.exercise4;
+package exercises.week9Stream.exercise4;
 
 
 public class HappinessRecord {

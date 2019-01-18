@@ -1,4 +1,4 @@
-package exercises.week09Stream.exercise05;
+package exercises.week9Stream.exercise05;
 
 import exercises.week4DateStructure.ex09File.FileReader;
 
@@ -9,7 +9,7 @@ public class FilmReader {
     FileReader fileReader = new FileReader();
 
     public List<Film> getFilm() {
-        return fileReader.asStream("exercises/week09Stream/source/films.csv")
+        return fileReader.asStream("exercises/week9Stream/source/films.csv")
                 .skip(1)
                 .map(e -> e.split(";"))
                 //  .map(e -> Arrays.asList(e))

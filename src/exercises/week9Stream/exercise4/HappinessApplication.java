@@ -1,4 +1,4 @@
-package exercises.week09Stream.exercise4;
+package exercises.week9Stream.exercise4;
 
 import exercises.week4DateStructure.ex09File.FileReader;
 
@@ -9,7 +9,7 @@ public class HappinessApplication {
     public static void main(String[] args) {
 
 
-        new FileReader().asStream("exercises/week09Stream/source/world-happiness-2017.csv")
+        new FileReader().asStream("exercises/week9Stream/source/world-happiness-2017.csv")
                 .skip(1)
                 .map(e -> e.split(";"))
                 // .map(e -> Arrays.asList(e))

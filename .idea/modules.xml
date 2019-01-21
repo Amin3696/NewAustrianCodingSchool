@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NewAustrianCodingSchoolProject.iml" filepath="$PROJECT_DIR$/NewAustrianCodingSchoolProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../i4-programming/i4-programming.iml" filepath="$PROJECT_DIR$/../i4-programming/i4-programming.iml" />
     </modules>
   </component>
 </project>

@@ -13,19 +13,19 @@ public class StudentSummarizer {
                 .count();
     }
 
-    public Long getBoys() {
+    public Long getMalePopulation() {
         return students.stream()
                 .filter(e -> e.getGender().equals("male"))
                 .count();
     }
 
-    public Long girls() {
+    public Long getFemalesPopulation() {
         return students.stream()
                 .filter(e -> e.getGender().equals("female"))
                 .count();
     }
 
-    public List<String> ParentalEducation() {
+    public List<String> getParentalEducationsLevel() {
         return students.stream()
                 .map(e -> e.getParentalLevelOfEducation())
                 .distinct()
@@ -33,7 +33,7 @@ public class StudentSummarizer {
                 .collect(Collectors.toList());
     }
 
-    public Long getMoreThan90() {
+    public Long getScoreOver90() {
         return students.stream()
                 .filter(e -> e.getMathScore() > 90)
                 .filter(e -> e.getReadingScore() > 90)
@@ -42,7 +42,7 @@ public class StudentSummarizer {
 
     }
 
-    public Long get100() {
+    public Long getScore100() {
         return students.stream()
                 .filter(e -> e.getMathScore() == 100)
                 .filter(e -> e.getWritingScore() == 100)

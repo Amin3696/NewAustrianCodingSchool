@@ -2,6 +2,7 @@ package exercises.Week10MoreStream.exercise01Pokemon;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Pokemonexplorer {
     private PokemonReader pokemonReader = new PokemonReader();
@@ -95,8 +96,41 @@ public class Pokemonexplorer {
 
 
     }
+
     public boolean isAnyPokemonWithTotalMoreThanValue() {
         return pokemons.stream()
                 .anyMatch(e -> e.getTotal() > 700);
     }
+
+    public boolean haveAllPokemonsTotalMoreThan150() {
+        return pokemons.stream()
+                .allMatch(e -> e.getTotal() > 150);
+    }
+
+    public List<String> whichLettersAreMostAppearing() {
+        return pokemons.stream()
+                .map(e -> e.getName().split(""))
+                .flatMap(e -> Stream.of(e))
+                .collect(Collectors.groupingBy(e -> e, Collectors.counting()))
+                .entrySet().stream()
+                .sorted((e1, e2) -> e2.getValue().compareTo(e1.getValue()))
+                .limit(3)
+                .map(e -> e.getKey() + " | " + e.getValue())
+                .collect(Collectors.toList());
+    }
+
+    public List<String> whichLettersAreLeastAppearing() {
+        return pokemons.stream()
+                .map(e -> e.getName().split(""))
+                .flatMap(e -> Stream.of(e))
+                .map(e -> e.charAt(0))
+                .filter(e -> Character.isAlphabetic(e))
+                .collect(Collectors.groupingBy(e -> e, Collectors.counting()))
+                .entrySet().stream()
+                .sorted((e1, e2) -> e1.getValue().compareTo(e2.getValue()))
+                .limit(5)
+                .map(e -> e.getKey() + " | " + e.getValue())
+                .collect(Collectors.toList());
+    }
 }
+

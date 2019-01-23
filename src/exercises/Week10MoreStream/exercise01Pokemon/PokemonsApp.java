@@ -60,16 +60,25 @@ public class PokemonsApp {
                 .forEach(e -> System.out.println(e + " with defence: " + e.getDefense() + "\n"));
 
         System.out.println("14-The most powerful in Attack:");
-        System.out.println(pokemonexplorer.showTheMostPowerfulInAttack()+"\n");
+        System.out.println(pokemonexplorer.showTheMostPowerfulInAttack() + "\n");
 
         System.out.println("15-getThe Total Amount Of 10 Hp");
-        System.out.println(pokemonexplorer.getTheTotalAmountOfHp()+"\n");
+        System.out.println(pokemonexplorer.getTheTotalAmountOfHp() + "\n");
 
         System.out.println("16-Isn't any Pokemon with Total more than 800?");
-        System.out.println(pokemonexplorer.isNotAnyPokemonWithTotalMoreThan800()+"\n");
+        System.out.println(pokemonexplorer.isNotAnyPokemonWithTotalMoreThan800() + "\n");
 
         System.out.println("17-is Any Pokemon With Total More THan700");
-        System.out.println(pokemonexplorer.isAnyPokemonWithTotalMoreThanValue()+"\n");
+        System.out.println(pokemonexplorer.isAnyPokemonWithTotalMoreThanValue() + "\n");
+
+        System.out.println("18-do have all Pokemons Total more than 150");
+        System.out.println(pokemonexplorer.haveAllPokemonsTotalMoreThan150() + "\n");
+
+        System.out.println("19-Which letters are most appearing in Pokemons name?");
+        System.out.println(pokemonexplorer.whichLettersAreMostAppearing()+"\n");
+
+        System.out.println("20.Which letters are least in pokemons name?");
+        System.out.println(pokemonexplorer.whichLettersAreLeastAppearing() + "\n");
 
     }
 }

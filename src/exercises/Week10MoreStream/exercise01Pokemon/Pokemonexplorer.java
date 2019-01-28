@@ -127,7 +127,7 @@ public class Pokemonexplorer {
                 .filter(e -> Character.isAlphabetic(e))
                 .collect(Collectors.groupingBy(e -> e, Collectors.counting()))
                 .entrySet().stream()
-                .sorted((e1, e2) -> e1.getValue().compareTo(e2.getValue()))
+                .sorted(Comparator.comparing(Map.Entry::getValue))
                 .limit(5)
                 .map(e -> e.getKey() + " | " + e.getValue())
                 .collect(Collectors.toList());

@@ -1,7 +1,7 @@
 package exercises.week11Time.reflectionWeek11;
 
 import java.time.LocalDate;
-import java.time.Period;
+import java.time.temporal.ChronoUnit;
 
 public class Solstics {
 
@@ -40,11 +40,12 @@ public class Solstics {
     public String calculateSummerSolistice(LocalDate localDate) {
         String date = getSummerSolsticeCountdown(localDate);
         LocalDate dateOfNextSummerSolistice = LocalDate.parse(date);
-        int days = Period.between(localDate, dateOfNextSummerSolistice).getDays();
+      //  int days = Period.between(localDate, dateOfNextSummerSolistice).getDays();
+        long between = ChronoUnit.DAYS.between(localDate, dateOfNextSummerSolistice);
 
         return "The Summer Solstice " + localDate.getYear() + " is on " + dateOfNextSummerSolistice.getDayOfWeek() + ", " + dateOfNextSummerSolistice.getMonth()
                 + " " + dateOfNextSummerSolistice.getDayOfMonth() + " " + dateOfNextSummerSolistice.getYear()
-                + " " + "(in " + days + " days).";
+                + " " + "(in " + between + " days).";
 
 
     }
@@ -52,11 +53,12 @@ public class Solstics {
     public String calculateWinterSolostice(LocalDate localDate){
         String date = getWinterSolstice(localDate);
         LocalDate dateOfNextSummerSolistice = LocalDate.parse(date);
-        int days = Period.between(localDate, dateOfNextSummerSolistice).getDays();
+        //int days = Period.between(localDate, dateOfNextSummerSolistice).getDays();
+        long between = ChronoUnit.DAYS.between(localDate, dateOfNextSummerSolistice);
 
         return "The Winter Solstice " + localDate.getYear() + " is on " + dateOfNextSummerSolistice.getDayOfWeek() + ", " + dateOfNextSummerSolistice.getMonth()
                 + " " + dateOfNextSummerSolistice.getDayOfMonth() + " " + dateOfNextSummerSolistice.getYear()
-                + " " + "(in " + days + " days).";
+                + " " + "(in " + between + " days).";
 
     }
 

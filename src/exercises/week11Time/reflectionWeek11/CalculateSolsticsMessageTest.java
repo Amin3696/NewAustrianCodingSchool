@@ -12,7 +12,7 @@ class CalculateSolsticsMessageTest {
     @Test
     void testCalculateMessage() {
         String actual = solstics.calculateSummerSolistice(LocalDate.parse("2019-02-01"));
-        String expected = "The Summer Solstice 2019 is on FRIDAY, JUNE 21, 2019 (in 140 days).";
+        String expected = "The Summer Solstice 2019 is on FRIDAY, JUNE 21 2019 (in 140 days).";
 
         Assertions.assertEquals(expected, actual);
     }
@@ -20,7 +20,7 @@ class CalculateSolsticsMessageTest {
     @Test
     void testCalculateMessageWinter() {
         String actual = solstics.calculateWinterSolostice(LocalDate.parse("2019-02-01"));
-        String expected = "The Winter Solstice 2019 is on SUNDAY, DECEMBER 22, 2019 (in 324 days).";
+        String expected = "The Winter Solstice 2019 is on SUNDAY, DECEMBER 22 2019 (in 324 days).";
 
         Assertions.assertEquals(expected, actual);
     }

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60daa5e5-786e-4690-a094-d4b7ed25ad23" name="Default Changelist" comment="" />
+    <list default="true" id="60daa5e5-786e-4690-a094-d4b7ed25ad23" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/Solstics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/Solstics.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,19 +24,19 @@
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.18" value="3" />
-          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="8" />
           <entry key="csv" value="6" />
-          <entry key="java" value="86" />
+          <entry key="java" value="91" />
           <entry key="kt" value="1" />
           <entry key="txt" value="1" />
         </counts>
@@ -41,7 +44,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="8" />
-          <entry key="JAVA" value="86" />
+          <entry key="JAVA" value="91" />
           <entry key="Kotlin" value="1" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
@@ -49,12 +52,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="21384" />
+          <entry key="java" value="22501" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="21384" />
+          <entry key="JAVA" value="22501" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
@@ -66,65 +69,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/TimeToAlphabeticFormatChanger.java">
+        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/Solstics.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="7" column="104" lean-forward="true" selection-start-line="7" selection-start-column="104" selection-end-line="7" selection-end-column="104" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/Ispast.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="10" selection-end-column="9" />
-              <folding>
-                <element signature="e#469#470#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/OclockTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/toClockTime.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/AlphabetTimeExchangerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/TimeToAlphabetWithPostfix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+            <state relative-caret-position="261">
+              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,10 +81,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/TimeToAlphabeticApplication.java">
+        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/CalculateSolsticsMessageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="233">
+              <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,37 +93,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/Postfix.java">
+        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/WinterSolsticsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/Noon.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+            <state relative-caret-position="644">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
               <folding>
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#262#263#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/Afternoon.java">
+        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/summerSolsticsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state>
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -188,9 +123,9 @@
       <list>
         <option value="Kotlin File" />
         <option value="Arquillian JUnit Test Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -200,11 +135,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/exercises/HerosQuestBoard/nextSmallerNumber/nextSmallerNumber/NextSmallerFinder.java" />
-        <option value="$PROJECT_DIR$/src/exercises/HerosQuestBoard/nextSmallerNumber/NextSmallerFinder.java" />
-        <option value="$PROJECT_DIR$/src/exercises/herosQuestBoard/NextSmallerNumber.java" />
-        <option value="$PROJECT_DIR$/src/exercises/herosQuestBoard/nextSmallerNumber/nextSmallerNumberApp.java" />
-        <option value="$PROJECT_DIR$/src/exercises/herosQuestBoard/nextSmallerNumber/NextSmallerNumber.java" />
         <option value="$PROJECT_DIR$/src/exercises/Chalenges/nextSmallerNumber/nextSmallerNumberApp.java" />
         <option value="$PROJECT_DIR$/src/exercises/Chalenges/NextSmallerNumber.java" />
         <option value="$PROJECT_DIR$/src/exercises/Chalenges/nextSmallerNumber/NextSmallerNumber.java" />
@@ -251,6 +181,11 @@
         <option value="$PROJECT_DIR$/src/exercises/week11Time/exercise03/toClockTime.java" />
         <option value="$PROJECT_DIR$/src/exercises/week11Time/exercise03/AlphabetTimeExchangerTest.java" />
         <option value="$PROJECT_DIR$/src/exercises/week11Time/exercise03/TimeToAlphabeticApplication.java" />
+        <option value="$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/SolsticsTest.java" />
+        <option value="$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/summerSolsticsTest.java" />
+        <option value="$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/WinterSolsticsTest.java" />
+        <option value="$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/CalculateSolsticsMessageTest.java" />
+        <option value="$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/Solstics.java" />
       </list>
     </option>
   </component>
@@ -285,6 +220,11 @@
             <path>
               <item name="NewAustrianCodingSchool4" type="b2602c69:ProjectViewProjectNode" />
               <item name="i4-programming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NewAustrianCodingSchool4" type="b2602c69:ProjectViewProjectNode" />
+              <item name="i4-programming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NewAustrianCodingSchool4" type="b2602c69:ProjectViewProjectNode" />
@@ -331,10 +271,11 @@
     <property name="SearchEverywhereHistoryKey" value="live &#9;ACTION&#9;SaveAsTemplate&#10;live tem&#9;ACTION&#9;InsertLiveTemplate&#10;live te&#9;ACTION&#9;SaveAsTemplate" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548943592107" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549030726982" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../i4-programming" />
@@ -347,6 +288,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="exercises.week11Time.reflectionWeek11" />
       <recent name="exercises.week11Time.exercise03" />
       <recent name="exercises.week11Time.exercise02" />
       <recent name="exercises.Week10MoreStream.week11Time" />
@@ -355,25 +297,25 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="exercises.Week10MoreStream.week11Time" />
+      <recent name="exercises.HerosQuestBoard" />
+      <recent name="exercises.HerosQuestBoard.nextSmallerNumber" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/exercises/Week10MoreStream/ReflectionWeek10" />
+      <recent name="$PROJECT_DIR$/src/exercises/Week10MoreStream" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exercises.week11Time.exercise03" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise03" />
       <recent name="$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise02StudentsPerformance" />
       <recent name="$PROJECT_DIR$/src/exercises/Week10MoreStream/sources" />
       <recent name="$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise01Pokemon" />
       <recent name="$PROJECT_DIR$/src/exercises/Chalenges/nextSmallerNumber" />
-    </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="exercises.Week10MoreStream.week11Time" />
-      <recent name="exercises.HerosQuestBoard" />
-      <recent name="exercises.HerosQuestBoard.nextSmallerNumber" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="exercises.week11Time.exercise03" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/exercises/Week10MoreStream/ReflectionWeek10" />
-      <recent name="$PROJECT_DIR$/src/exercises/Week10MoreStream" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -388,96 +330,101 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimeToAlphabeticApplication">
-    <configuration name="TimeToAlphabeticApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exercises.week11Time.exercise03.TimeToAlphabeticApplication" />
+  <component name="RunManager" selected="JUnit.CalculateSolsticsMessageTest.testCalculateMessage">
+    <configuration name="CalculateSolsticsMessageTest.testCalculateMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NewAustrianCodingSchoolProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.week11Time.exercise03.*" />
+          <option name="PATTERN" value="exercises.week11Time.reflectionWeek11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlphabetTimeExchangerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NewAustrianCodingSchoolProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.week11Time.exercise03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="exercises.week11Time.exercise03" />
-      <option name="MAIN_CLASS_NAME" value="exercises.week11Time.exercise03.AlphabetTimeExchangerTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlphabetTimeExchangerTest.testOclock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NewAustrianCodingSchoolProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.week11Time.exercise03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="exercises.week11Time.exercise03" />
-      <option name="MAIN_CLASS_NAME" value="exercises.week11Time.exercise03.AlphabetTimeExchangerTest" />
-      <option name="METHOD_NAME" value="testOclock" />
+      <option name="PACKAGE_NAME" value="exercises.week11Time.reflectionWeek11" />
+      <option name="MAIN_CLASS_NAME" value="exercises.week11Time.reflectionWeek11.CalculateSolsticsMessageTest" />
+      <option name="METHOD_NAME" value="testCalculateMessage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlphabetTimeExchangerTest.testPastTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CalculateSolsticsMessageTest.testCalculateMessageWinter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NewAustrianCodingSchoolProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.week11Time.exercise03.*" />
+          <option name="PATTERN" value="exercises.week11Time.reflectionWeek11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exercises.week11Time.exercise03" />
-      <option name="MAIN_CLASS_NAME" value="exercises.week11Time.exercise03.AlphabetTimeExchangerTest" />
-      <option name="METHOD_NAME" value="testPastTo" />
+      <option name="PACKAGE_NAME" value="exercises.week11Time.reflectionWeek11" />
+      <option name="MAIN_CLASS_NAME" value="exercises.week11Time.reflectionWeek11.CalculateSolsticsMessageTest" />
+      <option name="METHOD_NAME" value="testCalculateMessageWinter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlphabetTimeExchangerTest.testTo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WinterSolsticsTest.testSummerSolstice1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NewAustrianCodingSchoolProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.week11Time.exercise03.*" />
+          <option name="PATTERN" value="exercises.week11Time.reflectionWeek11.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exercises.week11Time.exercise03" />
-      <option name="MAIN_CLASS_NAME" value="exercises.week11Time.exercise03.AlphabetTimeExchangerTest" />
-      <option name="METHOD_NAME" value="testTo" />
+      <option name="PACKAGE_NAME" value="exercises.week11Time.reflectionWeek11" />
+      <option name="MAIN_CLASS_NAME" value="exercises.week11Time.reflectionWeek11.WinterSolsticsTest" />
+      <option name="METHOD_NAME" value="testSummerSolstice1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WinterSolsticsTest.testSummerSolstice2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NewAustrianCodingSchoolProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.week11Time.reflectionWeek11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercises.week11Time.reflectionWeek11" />
+      <option name="MAIN_CLASS_NAME" value="exercises.week11Time.reflectionWeek11.WinterSolsticsTest" />
+      <option name="METHOD_NAME" value="testSummerSolstice2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WinterSolsticsTest.testSummerSolstice3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NewAustrianCodingSchoolProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.week11Time.reflectionWeek11.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercises.week11Time.reflectionWeek11" />
+      <option name="MAIN_CLASS_NAME" value="exercises.week11Time.reflectionWeek11.WinterSolsticsTest" />
+      <option name="METHOD_NAME" value="testSummerSolstice3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AlphabetTimeExchangerTest.testPastTo" />
-      <item itemvalue="JUnit.AlphabetTimeExchangerTest.testTo" />
-      <item itemvalue="JUnit.AlphabetTimeExchangerTest" />
-      <item itemvalue="Application.TimeToAlphabeticApplication" />
-      <item itemvalue="JUnit.AlphabetTimeExchangerTest.testOclock" />
+      <item itemvalue="JUnit.WinterSolsticsTest.testSummerSolstice1" />
+      <item itemvalue="JUnit.WinterSolsticsTest.testSummerSolstice2" />
+      <item itemvalue="JUnit.WinterSolsticsTest.testSummerSolstice3" />
+      <item itemvalue="JUnit.CalculateSolsticsMessageTest.testCalculateMessage" />
+      <item itemvalue="JUnit.CalculateSolsticsMessageTest.testCalculateMessageWinter" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TimeToAlphabeticApplication" />
-        <item itemvalue="JUnit.AlphabetTimeExchangerTest.testOclock" />
-        <item itemvalue="JUnit.AlphabetTimeExchangerTest.testPastTo" />
-        <item itemvalue="JUnit.AlphabetTimeExchangerTest.testTo" />
-        <item itemvalue="JUnit.AlphabetTimeExchangerTest" />
+        <item itemvalue="JUnit.CalculateSolsticsMessageTest.testCalculateMessage" />
+        <item itemvalue="JUnit.CalculateSolsticsMessageTest.testCalculateMessageWinter" />
+        <item itemvalue="JUnit.WinterSolsticsTest.testSummerSolstice3" />
+        <item itemvalue="JUnit.WinterSolsticsTest.testSummerSolstice2" />
+        <item itemvalue="JUnit.WinterSolsticsTest.testSummerSolstice1" />
       </list>
     </recent_temporary>
   </component>
@@ -503,43 +450,44 @@
       <workItem from="1548696826221" duration="7781000" />
       <workItem from="1548748219272" duration="18055000" />
       <workItem from="1548836331654" duration="26961000" />
+      <workItem from="1549007755632" duration="8691000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AlphabetTimeExchangerTest_testPastTo - 2019.01.30 at 15h 20m 29s.xml">
-      <configuration name="AlphabetTimeExchangerTest.testPastTo" configurationId="JUnit" />
+    <history-entry file="summerSolsticsTest_testSummerSolstice3 - 2019.02.01 at 10h 06m 14s.xml">
+      <configuration name="summerSolsticsTest.testSummerSolstice3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlphabetTimeExchangerTest_testPastTo - 2019.01.30 at 15h 20m 49s.xml">
-      <configuration name="AlphabetTimeExchangerTest.testPastTo" configurationId="JUnit" />
+    <history-entry file="WinterSolsticsTest_testSummerSolstice - 2019.02.01 at 10h 19m 00s.xml">
+      <configuration name="WinterSolsticsTest.testSummerSolstice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlphabetTimeExchangerTest_testPastTo - 2019.01.30 at 15h 21m 20s.xml">
-      <configuration name="AlphabetTimeExchangerTest.testPastTo" configurationId="JUnit" />
+    <history-entry file="WinterSolsticsTest_testSummerSolstice - 2019.02.01 at 10h 19m 25s.xml">
+      <configuration name="WinterSolsticsTest.testSummerSolstice" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlphabetTimeExchangerTest - 2019.01.30 at 15h 21m 58s.xml">
-      <configuration name="AlphabetTimeExchangerTest" configurationId="JUnit" />
+    <history-entry file="WinterSolsticsTest_testSummerSolstice1 - 2019.02.01 at 10h 20m 24s.xml">
+      <configuration name="WinterSolsticsTest.testSummerSolstice1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlphabetTimeExchangerTest_testPastTo - 2019.01.30 at 15h 25m 35s.xml">
-      <configuration name="AlphabetTimeExchangerTest.testPastTo" configurationId="JUnit" />
+    <history-entry file="WinterSolsticsTest_testSummerSolstice2 - 2019.02.01 at 10h 20m 52s.xml">
+      <configuration name="WinterSolsticsTest.testSummerSolstice2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlphabetTimeExchangerTest_testPastTo - 2019.01.30 at 15h 26m 05s.xml">
-      <configuration name="AlphabetTimeExchangerTest.testPastTo" configurationId="JUnit" />
+    <history-entry file="WinterSolsticsTest_testSummerSolstice3 - 2019.02.01 at 10h 21m 36s.xml">
+      <configuration name="WinterSolsticsTest.testSummerSolstice3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlphabetTimeExchangerTest_testTo - 2019.01.31 at 11h 37m 32s.xml">
-      <configuration name="AlphabetTimeExchangerTest.testTo" configurationId="JUnit" />
+    <history-entry file="CalculateSolsticsMessageTest_testCalculateMessage - 2019.02.01 at 10h 43m 00s.xml">
+      <configuration name="CalculateSolsticsMessageTest.testCalculateMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlphabetTimeExchangerTest_testPastTo - 2019.01.31 at 11h 38m 34s.xml">
-      <configuration name="AlphabetTimeExchangerTest.testPastTo" configurationId="JUnit" />
+    <history-entry file="CalculateSolsticsMessageTest_testCalculateMessage - 2019.02.01 at 10h 47m 37s.xml">
+      <configuration name="CalculateSolsticsMessageTest.testCalculateMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlphabetTimeExchangerTest_testOclock - 2019.01.31 at 11h 40m 06s.xml">
-      <configuration name="AlphabetTimeExchangerTest.testOclock" configurationId="JUnit" />
+    <history-entry file="CalculateSolsticsMessageTest_testCalculateMessageWinter - 2019.02.01 at 10h 51m 12s.xml">
+      <configuration name="CalculateSolsticsMessageTest.testCalculateMessageWinter" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AlphabetTimeExchangerTest_testOclock - 2019.01.31 at 14h 57m 41s.xml">
-      <configuration name="AlphabetTimeExchangerTest.testOclock" configurationId="JUnit" />
+    <history-entry file="CalculateSolsticsMessageTest_testCalculateMessageWinter - 2019.02.01 at 10h 51m 34s.xml">
+      <configuration name="CalculateSolsticsMessageTest.testCalculateMessageWinter" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140599000" />
+    <option name="totallyTimeSpent" value="149290000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -554,13 +502,13 @@
     <frame x="0" y="25" width="1366" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.20015106" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.2031722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50236964" side_tool="true" visible="true" weight="0.20015106" />
+      <window_info id="Favorites" order="6" sideWeight="0.50236964" side_tool="true" weight="0.20015106" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4574639" />
@@ -569,10 +517,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32744783" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32263243" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32263243" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32263243" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32263243" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -636,29 +584,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../i4-programming/src/lecture/week10/MoreStreams.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="52" column="12" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise01Pokemon/PokemonsApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="77" column="77" selection-start-line="77" selection-start-column="77" selection-end-line="77" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/stream/SliceOps.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="108" selection-start-line="108" selection-end-line="108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise02StudentsPerformance/StudentSearch.java" />
-    <entry file="file://$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise02StudentsPerformance/StudentsApplication.java" />
     <entry file="file://$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise02StudentsPerformance/Student.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
@@ -827,13 +752,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise02/MilitaryTimeExchangerApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise02/MilitaryTimeExchangerApp.java" />
     <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise02/MilitaryTimeExchanger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -911,6 +830,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/TimeToAlphabeticFormatChanger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="104" selection-start-line="7" selection-start-column="104" selection-end-line="7" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/Postfix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
@@ -918,79 +847,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/Noon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/Afternoon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
+        <state relative-caret-position="84">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/TimeToAlphabetWithPostfix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="13" column="34" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/TimeToAlphabeticFormatChanger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="104" lean-forward="true" selection-start-line="7" selection-start-column="104" selection-end-line="7" selection-end-column="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/Ispast.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="e#469#470#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/toClockTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="140">
+          <caret line="10" column="9" selection-start-line="8" selection-start-column="6" selection-end-line="10" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/OclockTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/Noon.java">
+    <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/toClockTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/AlphabetTimeExchangerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
+        <state relative-caret-position="462">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/TimeToAlphabetWithPostfix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -999,8 +904,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise03/TimeToAlphabeticApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
+        <state relative-caret-position="168">
           <caret line="12" column="11" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/SolsticsTest.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/WinterSolsticsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/summerSolsticsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/Solstics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/CalculateSolsticsMessageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="21" column="58" selection-start-line="21" selection-start-column="58" selection-end-line="21" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

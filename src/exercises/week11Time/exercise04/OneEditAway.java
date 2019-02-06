@@ -13,9 +13,10 @@ public class OneEditAway {
         if (Math.abs(letterDifferenz) > 1) {
             return false;
         }
+
         return letterOfWord1.stream()
                 .filter(e -> !letterOfWord2.contains(e))
-                .count() < 2;
+                .count() > 2;
 
     }
 

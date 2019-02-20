@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="60daa5e5-786e-4690-a094-d4b7ed25ad23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewAustrianCodingSchoolProject/exercises/week11Time/exercise04/OneEditAway.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewAustrianCodingSchoolProject/exercises/week11Time/exercise04/OneEditAway.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NewAustrianCodingSchoolProject/exercises/week11Time/exercise04/OneEditAwayTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NewAustrianCodingSchoolProject/exercises/week11Time/exercise04/OneEditAwayTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/exercises/week11Time/exercise04/OneEditAway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/week11Time/exercise04/OneEditAway.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,26 +21,30 @@
     <session id="-1387961210">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="18" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.18" value="3" />
+          <entry key="project.open.time.18" value="4" />
           <entry key="project.open.time.19" value="2" />
-          <entry key="project.open.time.20" value="2" />
-          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.20" value="3" />
+          <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="8" />
           <entry key="csv" value="6" />
-          <entry key="java" value="96" />
+          <entry key="iml" value="1" />
+          <entry key="in" value="1" />
+          <entry key="java" value="99" />
           <entry key="kt" value="1" />
           <entry key="txt" value="1" />
         </counts>
@@ -46,20 +52,21 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="8" />
-          <entry key="JAVA" value="96" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="99" />
           <entry key="Kotlin" value="1" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="java" value="23302" />
+          <entry key="java" value="24890" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="23302" />
+          <entry key="JAVA" value="24890" />
           <entry key="PLAIN_TEXT" value="6" />
         </counts>
       </usages-collector>
@@ -69,44 +76,7 @@
     <favorites_list name="NewAustrianCodingSchool4" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise04/OneEditAway.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/Solstics.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="882">
-              <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise04/OneEditAwayTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -125,12 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/exercises/Chalenges/nextSmallerNumber/NextSmallerNumber.java" />
-        <option value="$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise01Pokemon/PokemonReader.java" />
-        <option value="$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise01Pokemon/Pokemon.java" />
-        <option value="$PROJECT_DIR$/src/exercises/week9Stream/reflectionWeek09/StudentSummarizer.java" />
-        <option value="$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise01Pokemon/PokemonsApp.java" />
-        <option value="$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise01Pokemon/Pokemonexplorer.java" />
         <option value="$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise02StudentsPerformance/StudentSearch.java" />
         <option value="$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise02StudentsPerformance/StudentsApplication.java" />
         <option value="$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise02StudentsPerformance/StudentReader.java" />
@@ -176,6 +140,12 @@
         <option value="$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/Solstics.java" />
         <option value="$PROJECT_DIR$/src/exercises/week11Time/exercise04/OneEditAwayTest.java" />
         <option value="$PROJECT_DIR$/src/exercises/week11Time/exercise04/OneEditAway.java" />
+        <option value="$PROJECT_DIR$/src/exercises/week11Time/exercise04/OneWayEditable.java" />
+        <option value="$PROJECT_DIR$/src/exercises/Chalenges/IsPermutation.java" />
+        <option value="$PROJECT_DIR$/src/exercises/Chalenges/IsPermutationTest.java" />
+        <option value="$PROJECT_DIR$/src/exercises/Chalenges/Permutation/IsPermutation.java" />
+        <option value="$PROJECT_DIR$/src/exercises/Chalenges/herosQuestBoard/Permutation/IsPermutationTest.java" />
+        <option value="$PROJECT_DIR$/src/exercises/Chalenges/Permutation/IsPermutationTest.java" />
       </list>
     </option>
   </component>
@@ -191,10 +161,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="y" value="25" />
-    <option name="width" value="637" />
-    <option name="height" value="740" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="27" />
+    <option name="width" value="1366" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -211,15 +181,6 @@
           <expand>
             <path>
               <item name="NewAustrianCodingSchool4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="i4-programming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewAustrianCodingSchool4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="i4-programming" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewAustrianCodingSchool4" type="b2602c69:ProjectViewProjectNode" />
               <item name="NewAustrianCodingSchoolProject" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -238,23 +199,7 @@
               <item name="NewAustrianCodingSchoolProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="week11Time" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewAustrianCodingSchool4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewAustrianCodingSchoolProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="week11Time" type="462c0819:PsiDirectoryNode" />
-              <item name="exercise04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="NewAustrianCodingSchool4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="NewAustrianCodingSchoolProject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="exercises" type="462c0819:PsiDirectoryNode" />
-              <item name="week11Time" type="462c0819:PsiDirectoryNode" />
-              <item name="reflectionWeek11" type="462c0819:PsiDirectoryNode" />
+              <item name="Chalenges" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -269,28 +214,28 @@
     <property name="SearchEverywhereHistoryKey" value="live &#9;ACTION&#9;SaveAsTemplate&#10;live tem&#9;ACTION&#9;InsertLiveTemplate&#10;live te&#9;ACTION&#9;SaveAsTemplate" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549375515355" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549900906731" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../i4-programming" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/level1" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="exercises.Chalenges" />
       <recent name="exercises.week11Time.exercise04" />
       <recent name="exercises.week11Time.reflectionWeek11" />
       <recent name="exercises.week11Time.exercise03" />
       <recent name="exercises.week11Time.exercise02" />
-      <recent name="exercises.Week10MoreStream.week11Time" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -328,17 +273,51 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.OneEditAwayTest.isBakeEditable">
-    <configuration name="OneEditAwayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.IsPermutationTest.testPermuteWords">
+    <configuration name="IsPermutationTest.testNonEqualWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="NewAustrianCodingSchoolProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exercises.week11Time.exercise04.*" />
+          <option name="PATTERN" value="exercises.Chalenges.herosQuestBoard.Permutation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="exercises.week11Time.exercise04" />
-      <option name="MAIN_CLASS_NAME" value="exercises.week11Time.exercise04.OneEditAwayTest" />
+      <option name="PACKAGE_NAME" value="exercises.Chalenges.herosQuestBoard.Permutation" />
+      <option name="MAIN_CLASS_NAME" value="exercises.Chalenges.herosQuestBoard.Permutation.IsPermutationTest" />
+      <option name="METHOD_NAME" value="testNonEqualWords" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsPermutationTest.testNonepermuteWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NewAustrianCodingSchoolProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.Chalenges.herosQuestBoard.Permutation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercises.Chalenges.herosQuestBoard.Permutation" />
+      <option name="MAIN_CLASS_NAME" value="exercises.Chalenges.herosQuestBoard.Permutation.IsPermutationTest" />
+      <option name="METHOD_NAME" value="testNonepermuteWords" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IsPermutationTest.testPermuteWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="NewAustrianCodingSchoolProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercises.Chalenges.herosQuestBoard.Permutation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercises.Chalenges.herosQuestBoard.Permutation" />
+      <option name="MAIN_CLASS_NAME" value="exercises.Chalenges.herosQuestBoard.Permutation.IsPermutationTest" />
+      <option name="METHOD_NAME" value="testPermuteWords" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -375,52 +354,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneEditAwayTest.isOneEditAway" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NewAustrianCodingSchoolProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.week11Time.exercise04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="exercises.week11Time.exercise04" />
-      <option name="MAIN_CLASS_NAME" value="exercises.week11Time.exercise04.OneEditAwayTest" />
-      <option name="METHOD_NAME" value="isOneEditAway" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OneEditAwayTest.isPalesEditable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="NewAustrianCodingSchoolProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exercises.week11Time.exercise04.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="exercises.week11Time.exercise04" />
-      <option name="MAIN_CLASS_NAME" value="exercises.week11Time.exercise04.OneEditAwayTest" />
-      <option name="METHOD_NAME" value="isPalesEditable" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.OneEditAwayTest.isOneEditAway" />
-      <item itemvalue="JUnit.OneEditAwayTest" />
       <item itemvalue="JUnit.OneEditAwayTest.isBakeEditable" />
       <item itemvalue="JUnit.OneEditAwayTest.isBaleEditable" />
-      <item itemvalue="JUnit.OneEditAwayTest.isPalesEditable" />
+      <item itemvalue="JUnit.IsPermutationTest.testNonEqualWords" />
+      <item itemvalue="JUnit.IsPermutationTest.testNonepermuteWords" />
+      <item itemvalue="JUnit.IsPermutationTest.testPermuteWords" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IsPermutationTest.testPermuteWords" />
+        <item itemvalue="JUnit.IsPermutationTest.testNonepermuteWords" />
+        <item itemvalue="JUnit.IsPermutationTest.testNonEqualWords" />
         <item itemvalue="JUnit.OneEditAwayTest.isBakeEditable" />
         <item itemvalue="JUnit.OneEditAwayTest.isBaleEditable" />
-        <item itemvalue="JUnit.OneEditAwayTest.isPalesEditable" />
-        <item itemvalue="JUnit.OneEditAwayTest.isOneEditAway" />
-        <item itemvalue="JUnit.OneEditAwayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -449,29 +396,16 @@
       <workItem from="1549007755632" duration="9443000" />
       <workItem from="1549365192895" duration="3538000" />
       <workItem from="1549373593861" duration="3360000" />
-      <workItem from="1549439733320" duration="608000" />
+      <workItem from="1549439733320" duration="8694000" />
+      <workItem from="1549883331306" duration="640000" />
+      <workItem from="1549884734652" duration="261000" />
+      <workItem from="1549888209482" duration="635000" />
+      <workItem from="1549894375693" duration="4227000" />
+      <workItem from="1549962065226" duration="768000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OneEditAwayTest_isOneEditAway - 2019.02.05 at 14h 02m 22s.xml">
-      <configuration name="OneEditAwayTest.isOneEditAway" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OneEditAwayTest_isOneEditAway - 2019.02.05 at 14h 02m 53s.xml">
-      <configuration name="OneEditAwayTest.isOneEditAway" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OneEditAwayTest - 2019.02.05 at 14h 15m 09s.xml">
-      <configuration name="OneEditAwayTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OneEditAwayTest_isBakeEditable - 2019.02.05 at 14h 16m 44s.xml">
-      <configuration name="OneEditAwayTest.isBakeEditable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OneEditAwayTest_isBaleEditable - 2019.02.05 at 14h 16m 55s.xml">
-      <configuration name="OneEditAwayTest.isBaleEditable" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OneEditAwayTest_isPalesEditable - 2019.02.05 at 14h 17m 05s.xml">
-      <configuration name="OneEditAwayTest.isPalesEditable" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OneEditAwayTest_isOneEditAway - 2019.02.05 at 14h 17m 16s.xml">
       <configuration name="OneEditAwayTest.isOneEditAway" configurationId="JUnit" />
     </history-entry>
@@ -484,9 +418,27 @@
     <history-entry file="OneEditAwayTest_isBakeEditable - 2019.02.05 at 14h 17m 49s.xml">
       <configuration name="OneEditAwayTest.isBakeEditable" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="IsPermutationTest_testNonEqualWords - 2019.02.11 at 16h 48m 44s.xml">
+      <configuration name="IsPermutationTest.testNonEqualWords" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IsPermutationTest_testNonepermuteWords - 2019.02.11 at 16h 50m 18s.xml">
+      <configuration name="IsPermutationTest.testNonepermuteWords" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IsPermutationTest_testPermuteWords - 2019.02.11 at 16h 51m 12s.xml">
+      <configuration name="IsPermutationTest.testPermuteWords" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IsPermutationTest_testPermuteWords - 2019.02.11 at 16h 51m 31s.xml">
+      <configuration name="IsPermutationTest.testPermuteWords" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IsPermutationTest_testPermuteWords - 2019.02.11 at 16h 51m 41s.xml">
+      <configuration name="IsPermutationTest.testPermuteWords" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="IsPermutationTest_testPermuteWords - 2019.02.11 at 16h 51m 52s.xml">
+      <configuration name="IsPermutationTest.testPermuteWords" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157548000" />
+    <option name="totallyTimeSpent" value="172165000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -498,10 +450,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1366" height="743" extended-state="7" />
-    <editor active="true" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.21223564" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49763033" visible="true" weight="0.21827795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -510,13 +461,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.50236964" side_tool="true" weight="0.20015106" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4574639" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.45602605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39967898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32744783" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32263243" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32247558" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32850242" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32263243" />
@@ -583,34 +534,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise02StudentsPerformance/StudentSummarizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise03/Sms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-          <folding>
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#284#285#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise03/smsTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise03/SmsSummarizer.java" />
-    <entry file="file://$PROJECT_DIR$/src/exercises/Week10MoreStream/exercise03/SmsReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar!/java/util/function/Function.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-14">
@@ -718,9 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
           <caret line="7" column="76" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -728,9 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -738,9 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="226" lean-forward="true" selection-start-line="226" selection-end-line="226" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,10 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,10 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,10 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-          <folding>
-            <element signature="e#172#173#0" expanded="true" />
-            <element signature="e#199#200#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -795,9 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="7" column="104" selection-start-line="7" selection-start-column="104" selection-end-line="7" selection-end-column="104" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,9 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -857,9 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -867,9 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="12" column="11" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -878,9 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -888,9 +775,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="602">
           <caret line="46" selection-start-line="46" selection-end-line="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -898,29 +782,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise04/OneWayEditable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/exercise04/OneEditAway.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercises/week11Time/reflectionWeek11/Solstics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
+        <state relative-caret-position="523">
           <caret line="64" column="1" selection-start-line="64" selection-start-column="1" selection-end-line="64" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -928,9 +810,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
           <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/level1/level1.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/level1/level1.in">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/Chalenges/Permutation/IsPermutationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercises/Chalenges/Permutation/IsPermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -986,7 +885,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>NewAustrianCodingSchoolProject</last-edited>
+          <last-edited>level1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

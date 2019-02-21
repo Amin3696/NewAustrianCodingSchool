@@ -4,7 +4,7 @@ import model.Bean;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.List;
+import java.util.Queue;
 
 class CanProducerTest {
 
@@ -12,7 +12,7 @@ class CanProducerTest {
 
     @Test
     private void testProduceBean() {
-        List<Bean> can = canProducer.produceCan(4);
+        Queue<Bean> can = canProducer.produceCan(4);
        Integer actual = can.size();
         Integer expected = 3;
         Assertions.assertEquals(expected,actual);

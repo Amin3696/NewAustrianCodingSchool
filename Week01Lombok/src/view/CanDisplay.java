@@ -3,27 +3,40 @@ package view;
 import controller.BeanCounter;
 import controller.CanFilter;
 import controller.CanProducer;
+import lombok.extern.java.Log;
 import model.Bean;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Optional;
-
+import java.util.Queue;
+ @Log
 public class CanDisplay {
-    public static void main(String[] args) {
+    public void beanApplication() {
+        int whiteResult = 0;
+        int blackResult = 0;
+        int numberOfTry = 0;
 
-        CanProducer canProducer = new CanProducer();
-        List<Bean> can = canProducer.produceCan(4);
-        System.out.println(can);
+        for (int time = 0; time < 20; time++) {
 
-        CanFilter canFilter = new CanFilter();
-        Optional<Bean> finalBean = canFilter.filterBeans(can);
+            CanProducer canProducer = new CanProducer();
+            Queue<Bean> can = canProducer.produceCan(10000);
+            BeanCounter beanCounter = new BeanCounter();
+            String statistics = beanCounter.countBeansType(can);
 
-        BeanCounter beanCounter = new BeanCounter();
-        HashMap<String, Long> statistics = beanCounter.countBeansType(can);
+            CanFilter canFilter = new CanFilter();
+            Bean finalBean = canFilter.filterBeans(can);
 
-        System.out.println(finalBean);
-//        System.out.println(statistics.entrySet());
+            if (finalBean.getColor().equals("Black")) {
+                blackResult++;
+
+            } else {
+                whiteResult++;
+
+            }
+            numberOfTry++;
+        }
+        double whitePercent = whiteResult * 100 / numberOfTry;
+        double blackPercent = blackResult * 100 / numberOfTry;
+        log.severe(" BlackResult: " + blackPercent + " % " + "\n whiteResult: " + whitePercent + " % ");
     }
+
 
 }

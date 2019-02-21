@@ -2,33 +2,31 @@ package controller;
 
 import model.Bean;
 
-import java.util.List;
-import java.util.Optional;
+import java.util.LinkedList;
+import java.util.Queue;
 
 public class CanFilter {
 
-//    private CanProducer canProducer = new CanProducer();
 
-    public Optional<Bean> filterBeans(List<Bean> can) {
+    public Bean filterBeans(Queue<Bean> can) {
 
-//        List<Bean> can = canProducer.produceCan(3);
-        while (can.size() ==1) {
-            Bean firstBean = can.get(0);
-            can.remove(0);
-            Bean secondBean = can.get(1);
-            can.remove(1);
+        while (can.size() > 1) {
+            Bean firstBean = can.poll();
+            Bean secondBean = can.poll();
             Bean finalBean = getBeansForCan(firstBean, secondBean);
             can.add(finalBean);
         }
 
-        return Optional.of(can.get(0));
+        return can.poll();
     }
 
     private Bean getBeansForCan(Bean firstBean, Bean secondBean) {
-        if (firstBean.getColor().equals(secondBean.getColor())) {
-
+        String firstColor = firstBean.getColor();
+        String secondColor = secondBean.getColor();
+        if (firstColor.equalsIgnoreCase(secondColor)) {
             return new Bean("Black");
+        } else {
+            return new Bean("White");
         }
-        return new Bean("White");
     }
 }

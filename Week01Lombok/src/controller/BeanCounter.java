@@ -2,35 +2,33 @@ package controller;
 
 import model.Bean;
 
-import java.util.HashMap;
-import java.util.List;
+import java.util.Queue;
 
 public class BeanCounter {
 
-    public HashMap<String, Long> countBeansType(List<Bean> can) {
+    public String countBeansType(Queue<Bean> can) {
 
 
-        Long whiteBeansAmount = countWhiteBeans(can);
-        Long BlackBeansAmount = countBlackBeans(can);
+        long whiteBeansAmount = countWhiteBeans(can);
+        long blackBeansAmount = countBlackBeans(can);
         Integer totalSize = can.size();
-        long whitePercentage = (whiteBeansAmount / totalSize) * 100;
-        long blackPercentage = (BlackBeansAmount / totalSize) * 100;
+        long total = totalSize.longValue();
 
-        HashMap<String, Long> statistics = new HashMap<>();
-        statistics.put("Black",blackPercentage);
-        statistics.put("White",whitePercentage);
+        double whitePercent = whiteBeansAmount * 100.00 / total;
+        double blackPercent = blackBeansAmount * 100.00 / total;
 
-        return statistics;
+        String result = "The percentage of White Beans is " + whitePercent + "% and the percentage of Black is " + blackPercent + "%";
+
+        return result;
     }
 
-
-    private Long countWhiteBeans(List<Bean> can) {
+    private Long countWhiteBeans(Queue<Bean> can) {
         return can.stream()
                 .filter(e -> e.getColor().equals("White"))
                 .count();
     }
 
-    private Long countBlackBeans(List<Bean> can) {
+    private Long countBlackBeans(Queue<Bean> can) {
         return can.stream()
                 .filter(e -> e.getColor().equals("Black"))
                 .count();

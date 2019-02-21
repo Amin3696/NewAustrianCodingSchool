@@ -2,25 +2,20 @@ package controller;
 
 import model.Bean;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Random;
 
 
 public class CanProducer {
 
-    public List<Bean> produceCan(Integer beansAmount) {
-
-        List<Bean> can = new ArrayList();
-
+    public Queue<Bean> produceCan(Integer beansAmount) {
+        Queue<Bean> can = new LinkedList<>();
 
         for (int time = 0; time < beansAmount; time++) {
-
             Bean bean = produceRandomBean();
             can.add(bean);
-
         }
-
         return can;
     }
 
@@ -29,10 +24,11 @@ public class CanProducer {
         Random random = new Random();
         int beanType = random.nextInt(2);
         if (beanType == 0) {
-            return new Bean("White");
+            return Bean.builder().color("White").build();
+        } else {
+            return Bean.builder().color("Black").build();
+
         }
-        return new Bean("Black");
+
     }
-
-
 }

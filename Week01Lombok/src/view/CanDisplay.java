@@ -6,37 +6,46 @@ import controller.CanProducer;
 import lombok.extern.java.Log;
 import model.Bean;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
 import java.util.Queue;
- @Log
+
+@Log
 public class CanDisplay {
-    public void beanApplication() {
-        int whiteResult = 0;
-        int blackResult = 0;
-        int numberOfTry = 0;
+    public void beanApplication (){
 
-        for (int time = 0; time < 20; time++) {
+        {
+            int whiteResult = 0;
+            int blackResult = 0;
+            int numberOfTry = 0;
+            List<String> statisticData = new ArrayList<>();
 
-            CanProducer canProducer = new CanProducer();
-            Queue<Bean> can = canProducer.produceCan(10000);
-            BeanCounter beanCounter = new BeanCounter();
-            String statistics = beanCounter.countBeansType(can);
+            for (int time = 0; time < 20; time++) {
 
-            CanFilter canFilter = new CanFilter();
-            Bean finalBean = canFilter.filterBeans(can);
+                CanProducer canProducer = new CanProducer();
+                Queue<Bean> can = canProducer.produceCan(10000);
+                BeanCounter beanCounter = new BeanCounter();
+                String statistics = beanCounter.countBeansType(can);
 
-            if (finalBean.getColor().equals("Black")) {
-                blackResult++;
+                CanFilter canFilter = new CanFilter();
+                Optional<Bean> finalBean = canFilter.filterBeans(can);
 
-            } else {
-                whiteResult++;
+                if (finalBean.get().getColor().equals("Black")) {
+                    blackResult++;
 
+                } else {
+                    whiteResult++;
+
+                }
+                numberOfTry++;
+                String data = "Final Bean is: " + finalBean.get()+"\n" + statistics;
+                statisticData.add(data);
             }
-            numberOfTry++;
+            double whitePercent = whiteResult * 100 / numberOfTry;
+            double blackPercent = blackResult * 100 / numberOfTry;
+            log.severe(" BlackResult: " + blackPercent + " % " + "\n whiteResult: " + whitePercent + " % ");
+            statisticData.stream().forEach(e-> log.severe("\n"+e));
         }
-        double whitePercent = whiteResult * 100 / numberOfTry;
-        double blackPercent = blackResult * 100 / numberOfTry;
-        log.severe(" BlackResult: " + blackPercent + " % " + "\n whiteResult: " + whitePercent + " % ");
     }
-
-
 }

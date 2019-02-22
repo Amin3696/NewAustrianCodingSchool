@@ -13,9 +13,9 @@ class CanProducerTest {
     @Test
     private void testProduceBean() {
         Queue<Bean> can = canProducer.produceCan(4);
-       Integer actual = can.size();
-        Integer expected = 3;
-        Assertions.assertEquals(expected,actual);
+        Integer actual = can.size();
+        Integer expected = 4;
+        Assertions.assertEquals(expected, actual);
         System.out.println(can);
 
 

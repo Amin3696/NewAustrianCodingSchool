@@ -3,12 +3,13 @@ package controller;
 import model.Bean;
 
 import java.util.LinkedList;
+import java.util.Optional;
 import java.util.Queue;
 
 public class CanFilter {
 
 
-    public Bean filterBeans(Queue<Bean> can) {
+    public Optional<Bean> filterBeans(Queue<Bean> can) {
 
         while (can.size() > 1) {
             Bean firstBean = can.poll();
@@ -17,7 +18,7 @@ public class CanFilter {
             can.add(finalBean);
         }
 
-        return can.poll();
+        return Optional.of(can.poll());
     }
 
     private Bean getBeansForCan(Bean firstBean, Bean secondBean) {

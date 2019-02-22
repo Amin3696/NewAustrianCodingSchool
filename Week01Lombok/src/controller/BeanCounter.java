@@ -8,7 +8,6 @@ public class BeanCounter {
 
     public String countBeansType(Queue<Bean> can) {
 
-
         long whiteBeansAmount = countWhiteBeans(can);
         long blackBeansAmount = countBlackBeans(can);
         Integer totalSize = can.size();
@@ -17,7 +16,9 @@ public class BeanCounter {
         double whitePercent = whiteBeansAmount * 100.00 / total;
         double blackPercent = blackBeansAmount * 100.00 / total;
 
-        String result = "The percentage of White Beans is " + whitePercent + "% and the percentage of Black is " + blackPercent + "%";
+        String result = "The percentage of White Beans is " + whitePercent +
+                "% and amount of " + whiteBeansAmount + " \nand the percentage of Black is " +
+                blackPercent + "% " + "and amount of " + blackBeansAmount;
 
         return result;
     }

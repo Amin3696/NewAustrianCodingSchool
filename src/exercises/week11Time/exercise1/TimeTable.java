@@ -14,6 +14,7 @@ public class TimeTable {
 
         LocalDate date = LocalDate.parse("2003-03-13");
         System.out.println(date.getDayOfWeek().toString());
-
+// ad to test VCS
     }
 }
+]
